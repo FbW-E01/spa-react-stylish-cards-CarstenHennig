@@ -8,7 +8,8 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import InputGroup from 'react-bootstrap/InputGroup'
 import FormControl from 'react-bootstrap/FormControl'
 import CloseButton from 'react-bootstrap/CloseButton'
-// import { lightsalmon } from 'color-name';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "font-awesome/css/font-awesome.min.css"
 
     const Button = styled.button`
         color: red;
@@ -155,6 +156,10 @@ import CloseButton from 'react-bootstrap/CloseButton'
                  <div style={{display: 'inline-block'}}>
                      <CloseButton />
                 </div>
+                <div>
+                    Your <i className="fa fa-coffee"></i> is ready to taste
+                </div>
+
             </CardFour> 
 
         </div>
